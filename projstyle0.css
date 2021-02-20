@@ -1,0 +1,64 @@
+html {
+  font-size: 30px;
+  background-color: thistle;
+  color: whitesmoke;
+}
+.projimg {
+  border-radius: 9%;
+  width: 250px;
+}
+.aliceblue {
+  color: aliceblue;
+}
+.centerposition {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.small {
+  font-size: 0.75rem;
+}
+.bold {
+  font-weight: bold;
+}
+#header {
+  background-image: url("ihttps://user-images.githubusercontent.com/38135805/108307580-047b3980-717c-11eb-94a6-20a9d453cbac.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  color: slategrey;
+}
+h2 {
+  font-size: 1.5rem;
+  color: slategray;
+}
+h3 {
+  text-align: center;
+  font-size: 1rem;
+}
+input {
+  height: 1rem;
+  width: 40vw;
+}
+textarea {
+  width: 40vw;
+}
+#btnsize {
+  width: 3rem;
+  font-size: 25vh;
+}
+#profilepic {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: gray;
+  border-style: double;
+}
