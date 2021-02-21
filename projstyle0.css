@@ -6,6 +6,18 @@ html {
 .projimg {
   border-radius: 9%;
   width: 250px;
+  height: 550px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 30px;
+}
+.projimg:hoover {
+  background: aliceblue;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .aliceblue {
   color: aliceblue;
@@ -24,7 +36,7 @@ html {
 .pglinks {
   position: fixed;
   top: 15px;
-  left: 950px;
+  left: 65vw;
 }
 #header {
   background-image: url("ihttps://user-images.githubusercontent.com/38135805/108307580-047b3980-717c-11eb-94a6-20a9d453cbac.jpg");
