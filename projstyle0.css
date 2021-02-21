@@ -21,6 +21,11 @@ html {
 .bold {
   font-weight: bold;
 }
+.pglinks {
+  position: fixed;
+  top: 15px;
+  left: 950px;
+}
 #header {
   background-image: url("ihttps://user-images.githubusercontent.com/38135805/108307580-047b3980-717c-11eb-94a6-20a9d453cbac.jpg");
   height: 100%;
@@ -49,9 +54,12 @@ input {
 textarea {
   width: 40vw;
 }
-#btnsize {
+button {
   width: 3rem;
-  font-size: 25vh;
+  padding: 10px;
+}
+button:hover {
+  background: gray;
 }
 #profilepic {
   max-width: 100%;
