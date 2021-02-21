@@ -3,24 +3,26 @@ html {
   background-color: thistle;
   color: whitesmoke;
 }
+hr {
+  width: 50%;
+}
+.pli {
+  list-style: none;
+  display: inline-table;
+  padding: 3% 15%;
+}
+
 .projimg {
   border-radius: 9%;
   width: 250px;
-  height: 550px;
-  margin-left: 45px;
-  margin-right: 45px;
-  margin-bottom: 30px;
+  height: 525px;
+  float: left;
+  margin: 0% 5% 0 0%;
 }
-.projimg:hoover {
-  background: aliceblue;
-}
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .aliceblue {
   color: aliceblue;
+  text-decoration: none;
 }
 .centerposition {
   display: block;
@@ -34,16 +36,9 @@ html {
   font-weight: bold;
 }
 .pglinks {
-  position: fixed;
-  top: 15px;
-  left: 65vw;
-}
-#header {
-  background-image: url("ihttps://user-images.githubusercontent.com/38135805/108307580-047b3980-717c-11eb-94a6-20a9d453cbac.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  float: right;
+  margin-left: 20px;
+  margin-top: 0px;
 }
 h1 {
   font-weight: bolder;
@@ -63,8 +58,12 @@ input {
   height: 1rem;
   width: 40vw;
 }
+input[type="text"] {
+  background: lightgray;
+}
 textarea {
   width: 40vw;
+  background: lightgray;
 }
 button {
   width: 3rem;
